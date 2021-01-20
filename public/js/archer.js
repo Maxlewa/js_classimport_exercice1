@@ -1,4 +1,4 @@
-import {Humain, humain1, humain2} from './humain'
+import {Humain} from './humain.js'
 
 class Archer extends Humain {
     constructor (nom, age, fleches) {
@@ -7,5 +7,8 @@ class Archer extends Humain {
     }
 }
 
-humain1 = new Archer ("Alex", 23, 28)
-humain2 = new Archer ("Momo", 24, 26)
+let archer1 = new Archer ("Alex", 23, 28)
+let archer2 = new Archer ("Momo", 24, 26)
+
+console.log(archer1);
+console.log(archer2);

@@ -1,4 +1,4 @@
-import {Humain, humain1, humain2} from './humain'
+import {Humain} from './humain.js'
 
 class Mage extends Humain {
     constructor (nom, age, magie) {
@@ -7,5 +7,8 @@ class Mage extends Humain {
     }
 }
 
-humain1 = new Archer ("Alex", 23, "magie noire")
-humain2 = new Archer ("Momo", 24, "magie noire")
+let mage1 = new Mage ("Alex", 23, "magie noire")
+let mage2 = new Mage ("Momo", 24, "magie noire")
+
+console.log(mage1);
+console.log(mage2);
